@@ -1,5 +1,6 @@
 #!/usr/bin/perl
 use CGI;
+use utf8;
 $q = new CGI;
 if (!$q->param){
 print $q->header;
